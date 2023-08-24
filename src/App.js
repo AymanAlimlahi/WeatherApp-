@@ -25,7 +25,7 @@ function App() {
         
         <div className='search'>
         <center><Fade top><h2>Discover Weather In Your City</h2></Fade></center>
-          <input type='text' placeholder='Search City...' value={location} onChange={(e)=>{setLocation(e.target.value)}} onKeyPress={(e)=>search(e)}/>
+          <input type='text' placeholder='Search the city ' value={location} onChange={(e)=>{setLocation(e.target.value)}} onKeyPress={(e)=>search(e)}/>
         </div>
         <div className='top'>
           <div className=''location>
